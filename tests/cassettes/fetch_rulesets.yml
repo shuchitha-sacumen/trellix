@@ -1,0 +1,672 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Basic YWR....
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.2
+    method: GET
+    uri: https://10.10:8443/remote/core.executeQuery?%3Aoutput=json&target=UDLP_RuleSets&select=%28select+%28top+5%29+UDLP_RuleSets.RuleSetID+UDLP_RuleSets.CatalogID+UDLP_RuleSets.Name+UDLP_RuleSets.Description+UDLP_RuleSets.Enabled+UDLP_RuleSets.Owner+UDLP_RuleSets.LastModifier+UDLP_RuleSets.ModificationTime%29&order=%28order+%28asc+UDLP_RuleSets.RuleSetID%29%29
+  response:
+    body:
+      string: "OK:\r\n[ { \"UDLP_RuleSets.RuleSetID\" : \"61B55D9D-3684-4BED-B24D-268371EB1EBA\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] How to Block CD\\u002fDVD Burner Application from burning Confidential
+        data\", \"UDLP_RuleSets.Description\" : \"Blocks all defined CD\\u002fDVD
+        burner applications from burning Confidential data\", \"UDLP_RuleSets.Enabled\"
+        : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\" : 1, \"UDLP_RuleSets.ModificationTime\"
+        : \"2026-09-22T23:58:00-07:00\" }, { \"UDLP_RuleSets.RuleSetID\" : \"8DA9FC7B-AEBD-4A21-A173-277E6491BDE1\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] How to Educate users on emailing sensitive data\", \"UDLP_RuleSets.Description\"
+        : \"\", \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\"
+        : 1, \"UDLP_RuleSets.ModificationTime\" : \"2026-09-22T23:57:57-07:00\" },
+        { \"UDLP_RuleSets.RuleSetID\" : \"39ED5086-0378-4772-BCF7-2909B6E2A531\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] Monitor Violent Language\", \"UDLP_RuleSets.Description\" : \"\",
+        \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\"
+        : 1, \"UDLP_RuleSets.ModificationTime\" : \"2026-09-22T23:57:59-07:00\" },
+        { \"UDLP_RuleSets.RuleSetID\" : \"083245C5-BA5C-4490-8E20-306E8FF8E1B0\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] How to Block & Monitor Social Media Web Posts\", \"UDLP_RuleSets.Description\"
+        : \"Blocks any web-post to defined social media web-sites\", \"UDLP_RuleSets.Enabled\"
+        : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\" : 1, \"UDLP_RuleSets.ModificationTime\"
+        : \"2026-09-22T23:58:04-07:00\" }, { \"UDLP_RuleSets.RuleSetID\" : \"BA15136C-3C0B-40AF-8A57-35883022FF75\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] How to Monitor Database Files\", \"UDLP_RuleSets.Description\"
+        : \"\", \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\"
+        : 1, \"UDLP_RuleSets.ModificationTime\" : \"2026-09-22T23:58:06-07:00\" }
+        ]\r\n"
+    headers:
+      Cache-Control:
+      - no-cache,no-store
+      Connection:
+      - keep-alive
+      Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      Content-Type:
+      - text/plain;charset=UTF-8
+      Date:
+      - Wed, 07 Oct 2026 14:35:40 GMT
+      Expires:
+      - Wed, 07 Oct 2026 14:35:40 GMT
+      Keep-Alive:
+      - timeout=60
+      Pragma:
+      - no-cache
+      Server:
+      - Undefined
+      Set-Cookie:
+      - JSESSIONIDSSO=BFC19F2C3431C736EA700CE4E9F2DE39; Path=/; Secure; HttpOnly;
+        SameSite=None
+      - JSESSIONID=44408339DB2568A9CCD7C9946D86CBF3.route1; Path=/remote; Secure;
+        HttpOnly; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      X-Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      X-Content-Type-Options:
+      - nosniff
+      X-WebKit-CSP:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      content-length:
+      - '2182'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: ''
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Basic YWRtaW46U2FjdW1lbkAxMjM0NTY=
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.2
+    method: GET
+    uri: https://10.10.16.111:8443/remote/core.executeQuery?%3Aoutput=json&target=UDLP_RuleSets&select=%28select+%28top+5%29+UDLP_RuleSets.RuleSetID+UDLP_RuleSets.CatalogID+UDLP_RuleSets.Name+UDLP_RuleSets.Description+UDLP_RuleSets.Enabled+UDLP_RuleSets.Owner+UDLP_RuleSets.LastModifier+UDLP_RuleSets.ModificationTime%29&order=%28order+%28asc+UDLP_RuleSets.RuleSetID%29%29&where=%28gt+UDLP_RuleSets.RuleSetID+%22BA15136C-3C0B-40AF-8A57-35883022FF75%22%29
+  response:
+    body:
+      string: "OK:\r\n[ { \"UDLP_RuleSets.RuleSetID\" : \"752E0AF3-BAC8-44C1-9B1F-406E8D13C448\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] How to Monitor Confidential Data Upload to Dropbox and OneDrive\",
+        \"UDLP_RuleSets.Description\" : \"Monitors upload of confidential files to
+        the cloud through web-interfaces and desktop applications\", \"UDLP_RuleSets.Enabled\"
+        : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\" : 1, \"UDLP_RuleSets.ModificationTime\"
+        : \"2026-09-22T23:58:01-07:00\" }, { \"UDLP_RuleSets.RuleSetID\" : \"656ED847-30B1-49D6-877B-48103B5AEF69\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B888\", \"UDLP_RuleSets.Name\"
+        : \"Sacumen Test Rule Set\", \"UDLP_RuleSets.Description\" : \"Testing by
+        Jnaneswar\", \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\"
+        : 1, \"UDLP_RuleSets.ModificationTime\" : \"2026-09-25T05:32:00-07:00\" },
+        { \"UDLP_RuleSets.RuleSetID\" : \"A3E3A68F-0AB0-4DD5-A6AF-5218363E8EF6\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] Manage PnP and Removable storage device\", \"UDLP_RuleSets.Description\"
+        : \"You have example with BLOCK action, it will block all removable storage
+        devices with one exception\", \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\"
+        : 1, \"UDLP_RuleSets.LastModifier\" : 1, \"UDLP_RuleSets.ModificationTime\"
+        : \"2026-09-22T23:58:03-07:00\" }, { \"UDLP_RuleSets.RuleSetID\" : \"24CB85B1-D788-4FF0-85D3-856640337E0D\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] Monitor Source Code content\", \"UDLP_RuleSets.Description\"
+        : \"\", \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\"
+        : 1, \"UDLP_RuleSets.ModificationTime\" : \"2026-09-22T23:58:04-07:00\" },
+        { \"UDLP_RuleSets.RuleSetID\" : \"8B558DB2-CA54-41B8-9CD1-89A56CD21A20\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B888\", \"UDLP_RuleSets.Name\"
+        : \"DLP Getting Started rule set\", \"UDLP_RuleSets.Description\" : \"This
+        rule set was created by DLP Getting Started.\", \"UDLP_RuleSets.Enabled\"
+        : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\" : 1, \"UDLP_RuleSets.ModificationTime\"
+        : \"2026-09-24T04:35:43-07:00\" } ]\r\n"
+    headers:
+      Cache-Control:
+      - no-cache,no-store
+      Connection:
+      - keep-alive
+      Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      Content-Type:
+      - text/plain;charset=UTF-8
+      Date:
+      - Wed, 07 Oct 2026 14:35:40 GMT
+      Expires:
+      - Wed, 07 Oct 2026 14:35:40 GMT
+      Keep-Alive:
+      - timeout=60
+      Pragma:
+      - no-cache
+      Server:
+      - Undefined
+      Set-Cookie:
+      - JSESSIONIDSSO=FD4DD5A11C8164F3D35479A42580C02F; Path=/; Secure; HttpOnly;
+        SameSite=None
+      - JSESSIONID=718F100568C4C81DE8857978C78FF538.route1; Path=/remote; Secure;
+        HttpOnly; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      X-Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      X-Content-Type-Options:
+      - nosniff
+      X-WebKit-CSP:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      content-length:
+      - '2254'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: ''
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Basic YWRtaW46U2FjdW1lbkAxMjM0NTY=
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.2
+    method: GET
+    uri: https://10.10.16.111:8443/remote/core.executeQuery?%3Aoutput=json&target=UDLP_RuleSets&select=%28select+%28top+5%29+UDLP_RuleSets.RuleSetID+UDLP_RuleSets.CatalogID+UDLP_RuleSets.Name+UDLP_RuleSets.Description+UDLP_RuleSets.Enabled+UDLP_RuleSets.Owner+UDLP_RuleSets.LastModifier+UDLP_RuleSets.ModificationTime%29&order=%28order+%28asc+UDLP_RuleSets.RuleSetID%29%29&where=%28gt+UDLP_RuleSets.RuleSetID+%228B558DB2-CA54-41B8-9CD1-89A56CD21A20%22%29
+  response:
+    body:
+      string: "OK:\r\n[ { \"UDLP_RuleSets.RuleSetID\" : \"013C95FE-DAE7-440D-80AB-8B0462329475\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B888\", \"UDLP_RuleSets.Name\"
+        : \" How to Block CD\\u002fDVD Burner Application from burning Confidential
+        data\", \"UDLP_RuleSets.Description\" : \"Blocks all defined CD\\u002fDVD
+        burner applications from burning Confidential data\", \"UDLP_RuleSets.Enabled\"
+        : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\" : 1, \"UDLP_RuleSets.ModificationTime\"
+        : \"2026-10-01T00:52:34-07:00\" }, { \"UDLP_RuleSets.RuleSetID\" : \"E7BB41D5-1E91-44ED-B3A9-A1668A3A34AA\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] Monitor Classified content\", \"UDLP_RuleSets.Description\" :
+        \"Monitor classified content identified by keywords Confidential, Top Secret,
+        Restricted, Classified\", \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\"
+        : 1, \"UDLP_RuleSets.LastModifier\" : 1, \"UDLP_RuleSets.ModificationTime\"
+        : \"2026-09-22T23:58:06-07:00\" }, { \"UDLP_RuleSets.RuleSetID\" : \"A09747E6-E610-4569-9ECE-B1126AA74471\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] Monitor SOX content\", \"UDLP_RuleSets.Description\" : \"\",
+        \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\"
+        : 1, \"UDLP_RuleSets.ModificationTime\" : \"2026-09-22T23:58:06-07:00\" },
+        { \"UDLP_RuleSets.RuleSetID\" : \"7BEE4F36-3289-456A-BE93-B63C5AAE9CA1\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] Block GDPR Content\", \"UDLP_RuleSets.Description\" : \"This
+        sample rule set utilizes built-in classification for GDPR Content and demonstrate
+        how to start blocking GDPR content from moving around.\", \"UDLP_RuleSets.Enabled\"
+        : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\" : 1, \"UDLP_RuleSets.ModificationTime\"
+        : \"2026-09-22T23:58:05-07:00\" }, { \"UDLP_RuleSets.RuleSetID\" : \"B25EFF54-14CF-4F31-9AE8-C40CEA76F6E7\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] How to identify social networks in use by your employees\", \"UDLP_RuleSets.Description\"
+        : \"\", \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\"
+        : 1, \"UDLP_RuleSets.ModificationTime\" : \"2026-09-22T23:58:06-07:00\" }
+        ]\r\n"
+    headers:
+      Cache-Control:
+      - no-cache,no-store
+      Connection:
+      - keep-alive
+      Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      Content-Type:
+      - text/plain;charset=UTF-8
+      Date:
+      - Wed, 07 Oct 2026 14:35:40 GMT
+      Expires:
+      - Wed, 07 Oct 2026 14:35:40 GMT
+      Keep-Alive:
+      - timeout=60
+      Pragma:
+      - no-cache
+      Server:
+      - Undefined
+      Set-Cookie:
+      - JSESSIONIDSSO=50B457866430E79FCC95D48F99A20172; Path=/; Secure; HttpOnly;
+        SameSite=None
+      - JSESSIONID=BAC92543D8255BFF8CEC420BE9540122.route1; Path=/remote; Secure;
+        HttpOnly; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      X-Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      X-Content-Type-Options:
+      - nosniff
+      X-WebKit-CSP:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      content-length:
+      - '2334'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: ''
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Basic YWRtaW46U2FjdW1lbkAxMjM0NTY=
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.2
+    method: GET
+    uri: https://10.10.16.111:8443/remote/core.executeQuery?%3Aoutput=json&target=UDLP_RuleSets&select=%28select+%28top+5%29+UDLP_RuleSets.RuleSetID+UDLP_RuleSets.CatalogID+UDLP_RuleSets.Name+UDLP_RuleSets.Description+UDLP_RuleSets.Enabled+UDLP_RuleSets.Owner+UDLP_RuleSets.LastModifier+UDLP_RuleSets.ModificationTime%29&order=%28order+%28asc+UDLP_RuleSets.RuleSetID%29%29&where=%28gt+UDLP_RuleSets.RuleSetID+%22B25EFF54-14CF-4F31-9AE8-C40CEA76F6E7%22%29
+  response:
+    body:
+      string: "OK:\r\n[ { \"UDLP_RuleSets.RuleSetID\" : \"C77CCCF5-7585-4B33-841C-C56FB77C2588\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] Monitor US PII content\", \"UDLP_RuleSets.Description\" : \"\",
+        \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\"
+        : 1, \"UDLP_RuleSets.ModificationTime\" : \"2026-09-22T23:58:06-07:00\" },
+        { \"UDLP_RuleSets.RuleSetID\" : \"9CC409A9-5FF9-40CC-978D-C6B2239C21BA\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] Monitor HIPAA content\", \"UDLP_RuleSets.Description\" : \"\",
+        \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\"
+        : 1, \"UDLP_RuleSets.ModificationTime\" : \"2026-09-22T23:58:05-07:00\" },
+        { \"UDLP_RuleSets.RuleSetID\" : \"7A2EDE8F-D508-466D-ABFF-CCEC9F9094BC\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] How to identify cloud services in use by your employees (Shadow
+        IT)\", \"UDLP_RuleSets.Description\" : \"\", \"UDLP_RuleSets.Enabled\" : 1,
+        \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\" : 1, \"UDLP_RuleSets.ModificationTime\"
+        : \"2026-09-22T23:57:59-07:00\" }, { \"UDLP_RuleSets.RuleSetID\" : \"5F0BE2D9-EEAD-44D1-8975-D2C2D2CA11A4\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] How to Make USB devices Read-Only, Block executables and Allow
+        AV Access\", \"UDLP_RuleSets.Description\" : \"Makes USB mass storage devices
+        read-only, except AV that have full access. Blocks executables.\", \"UDLP_RuleSets.Enabled\"
+        : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\" : 1, \"UDLP_RuleSets.ModificationTime\"
+        : \"2026-09-22T23:58:00-07:00\" }, { \"UDLP_RuleSets.RuleSetID\" : \"02C8E1A8-628D-4E52-9FFD-E1256BD5EFC5\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] How to Protect Terminal Server Data\", \"UDLP_RuleSets.Description\"
+        : \"\", \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\"
+        : 1, \"UDLP_RuleSets.ModificationTime\" : \"2026-09-22T23:58:04-07:00\" }
+        ]\r\n"
+    headers:
+      Cache-Control:
+      - no-cache,no-store
+      Connection:
+      - keep-alive
+      Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      Content-Type:
+      - text/plain;charset=UTF-8
+      Date:
+      - Wed, 07 Oct 2026 14:35:41 GMT
+      Expires:
+      - Wed, 07 Oct 2026 14:35:41 GMT
+      Keep-Alive:
+      - timeout=60
+      Pragma:
+      - no-cache
+      Server:
+      - Undefined
+      Set-Cookie:
+      - JSESSIONIDSSO=E6AD1BA63AC03175BC79E35991E60CB8; Path=/; Secure; HttpOnly;
+        SameSite=None
+      - JSESSIONID=A1E6289CDD4D0D6C874910F0B1B046AD.route1; Path=/remote; Secure;
+        HttpOnly; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      X-Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      X-Content-Type-Options:
+      - nosniff
+      X-WebKit-CSP:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      content-length:
+      - '2140'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: ''
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Basic YWRtaW46U2FjdW1lbkAxMjM0NTY=
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.2
+    method: GET
+    uri: https://10.10.16.111:8443/remote/core.executeQuery?%3Aoutput=json&target=UDLP_RuleSets&select=%28select+%28top+5%29+UDLP_RuleSets.RuleSetID+UDLP_RuleSets.CatalogID+UDLP_RuleSets.Name+UDLP_RuleSets.Description+UDLP_RuleSets.Enabled+UDLP_RuleSets.Owner+UDLP_RuleSets.LastModifier+UDLP_RuleSets.ModificationTime%29&order=%28order+%28asc+UDLP_RuleSets.RuleSetID%29%29&where=%28gt+UDLP_RuleSets.RuleSetID+%2202C8E1A8-628D-4E52-9FFD-E1256BD5EFC5%22%29
+  response:
+    body:
+      string: "OK:\r\n[ { \"UDLP_RuleSets.RuleSetID\" : \"67C7263F-F5E4-4F67-BFE3-E28788033C0C\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] Monitor ITAR content\", \"UDLP_RuleSets.Description\" : \"\",
+        \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\"
+        : 1, \"UDLP_RuleSets.ModificationTime\" : \"2026-09-22T23:58:05-07:00\" },
+        { \"UDLP_RuleSets.RuleSetID\" : \"DD05ECE5-B910-4349-B4F6-E7CB19569393\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] How to Block smartphones\", \"UDLP_RuleSets.Description\" : \"\",
+        \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\"
+        : 1, \"UDLP_RuleSets.ModificationTime\" : \"2026-09-22T23:57:58-07:00\" },
+        { \"UDLP_RuleSets.RuleSetID\" : \"650B6E39-E0CC-407E-A0A1-E8CAC0AA8860\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] How to protect emailing of confidential data via exchange\",
+        \"UDLP_RuleSets.Description\" : \"\", \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\"
+        : 1, \"UDLP_RuleSets.LastModifier\" : 1, \"UDLP_RuleSets.ModificationTime\"
+        : \"2026-09-22T23:58:06-07:00\" }, { \"UDLP_RuleSets.RuleSetID\" : \"D2A67F44-9842-4C30-8DEA-EBAD73F76B5C\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B888\", \"UDLP_RuleSets.Name\"
+        : \"test\", \"UDLP_RuleSets.Description\" : \"\", \"UDLP_RuleSets.Enabled\"
+        : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\" : 1, \"UDLP_RuleSets.ModificationTime\"
+        : \"2026-10-01T01:04:00-07:00\" }, { \"UDLP_RuleSets.RuleSetID\" : \"993E9147-2C89-4543-A31B-EEC97C245C3D\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] Monitor Export Administration Regulations (EAR) content\", \"UDLP_RuleSets.Description\"
+        : \"\", \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\"
+        : 1, \"UDLP_RuleSets.ModificationTime\" : \"2026-09-22T23:58:05-07:00\" }
+        ]\r\n"
+    headers:
+      Cache-Control:
+      - no-cache,no-store
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1980'
+      Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      Content-Type:
+      - text/plain;charset=UTF-8
+      Date:
+      - Wed, 07 Oct 2026 14:35:41 GMT
+      Expires:
+      - Wed, 07 Oct 2026 14:35:41 GMT
+      Keep-Alive:
+      - timeout=60
+      Pragma:
+      - no-cache
+      Server:
+      - Undefined
+      Set-Cookie:
+      - JSESSIONIDSSO=BE750A3B28C0E0BBA2DB0FCF7FDD5CB3; Path=/; Secure; HttpOnly;
+        SameSite=None
+      - JSESSIONID=27DDDFC684421D247DB76BA0EEE6CE94.route1; Path=/remote; Secure;
+        HttpOnly; SameSite=None
+      X-Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      X-Content-Type-Options:
+      - nosniff
+      X-WebKit-CSP:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+    status:
+      code: 200
+      message: ''
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Basic YWRtaW46U2FjdW1lbkAxMjM0NTY=
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.2
+    method: GET
+    uri: https://10.10.16.111:8443/remote/core.executeQuery?%3Aoutput=json&target=UDLP_RuleSets&select=%28select+%28top+5%29+UDLP_RuleSets.RuleSetID+UDLP_RuleSets.CatalogID+UDLP_RuleSets.Name+UDLP_RuleSets.Description+UDLP_RuleSets.Enabled+UDLP_RuleSets.Owner+UDLP_RuleSets.LastModifier+UDLP_RuleSets.ModificationTime%29&order=%28order+%28asc+UDLP_RuleSets.RuleSetID%29%29&where=%28gt+UDLP_RuleSets.RuleSetID+%22993E9147-2C89-4543-A31B-EEC97C245C3D%22%29
+  response:
+    body:
+      string: "OK:\r\n[ { \"UDLP_RuleSets.RuleSetID\" : \"08BB7CC4-0B0D-4C5A-8817-FEC4201CB2DD\",
+        \"UDLP_RuleSets.CatalogID\" : \"D3AB4ED4-EFAB-48D2-840D-714CBF76B801\", \"UDLP_RuleSets.Name\"
+        : \"[Sample] Monitor PCI Content\", \"UDLP_RuleSets.Description\" : \"\",
+        \"UDLP_RuleSets.Enabled\" : 1, \"UDLP_RuleSets.Owner\" : 1, \"UDLP_RuleSets.LastModifier\"
+        : 1, \"UDLP_RuleSets.ModificationTime\" : \"2026-09-22T23:58:06-07:00\" }
+        ]\r\n"
+    headers:
+      Cache-Control:
+      - no-cache,no-store
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '392'
+      Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      Content-Type:
+      - text/plain;charset=UTF-8
+      Date:
+      - Wed, 07 Oct 2026 14:35:41 GMT
+      Expires:
+      - Wed, 07 Oct 2026 14:35:41 GMT
+      Keep-Alive:
+      - timeout=60
+      Pragma:
+      - no-cache
+      Server:
+      - Undefined
+      Set-Cookie:
+      - JSESSIONIDSSO=D38E5A99EA4D25AA80190F24A8FB6913; Path=/; Secure; HttpOnly;
+        SameSite=None
+      - JSESSIONID=D7FFE10C0EFF0B782344A1610A243C95.route1; Path=/remote; Secure;
+        HttpOnly; SameSite=None
+      X-Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      X-Content-Type-Options:
+      - nosniff
+      X-WebKit-CSP:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+    status:
+      code: 200
+      message: ''
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Basic YWRtaW46U2FjdW1lbkAxMjM0NTY=
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.2
+    method: GET
+    uri: https://10.10.16.111:8443/remote/core.executeQuery?%3Aoutput=json&target=UDLP_RuleSets&select=%28select+%28top+5%29+UDLP_RuleSets.RuleSetID+UDLP_RuleSets.CatalogID+UDLP_RuleSets.Name+UDLP_RuleSets.Description+UDLP_RuleSets.Enabled+UDLP_RuleSets.Owner+UDLP_RuleSets.LastModifier+UDLP_RuleSets.ModificationTime%29&order=%28order+%28asc+UDLP_RuleSets.RuleSetID%29%29&where=%28gt+UDLP_RuleSets.RuleSetID+%2208BB7CC4-0B0D-4C5A-8817-FEC4201CB2DD%22%29
+  response:
+    body:
+      string: "OK:\r\n[ ]\r\n"
+    headers:
+      Cache-Control:
+      - no-cache,no-store
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '10'
+      Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      Content-Type:
+      - text/plain;charset=UTF-8
+      Date:
+      - Wed, 07 Oct 2026 14:35:41 GMT
+      Expires:
+      - Wed, 07 Oct 2026 14:35:41 GMT
+      Keep-Alive:
+      - timeout=60
+      Pragma:
+      - no-cache
+      Server:
+      - Undefined
+      Set-Cookie:
+      - JSESSIONIDSSO=B52CFC02ADE264F70CBECF14BF6E72B7; Path=/; Secure; HttpOnly;
+        SameSite=None
+      - JSESSIONID=37B22AE4DA1C7CAB3B80EE208136050C.route1; Path=/remote; Secure;
+        HttpOnly; SameSite=None
+      X-Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      X-Content-Type-Options:
+      - nosniff
+      X-WebKit-CSP:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+    status:
+      code: 200
+      message: ''
+version: 1
