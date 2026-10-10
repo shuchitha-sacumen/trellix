@@ -1,0 +1,119 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Basic dGVzdF91c2VyOkR1bW15UGFzc0AyMDI2
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.2
+    method: GET
+    uri: https://10.10.10:8443/remote/policy.find?%3Aoutput=json&searchText=UDLPSRVR2013
+  response:
+    body:
+      string: "OK:\r\n[ { \"productId\" : \"UDLPSRVR2013\", \"featureName\" : \"Data
+        Loss Prevention\", \"typeName\" : \"DLP Policy\", \"objectName\" : \"Trellix
+        Default\", \"typeId\" : 11, \"featureId\" : \"UDLPSRVR2013\", \"objectId\"
+        : 22, \"productName\" : \"Data Loss Prevention 11.13\", \"objectNotes\" :
+        \"\" }, { \"productId\" : \"UDLPSRVR2013\", \"featureName\" : \"Data Loss
+        Prevention\", \"typeName\" : \"DLP Policy\", \"objectName\" : \"My Default
+        DLP Policy\", \"typeId\" : 11, \"featureId\" : \"UDLPSRVR2013\", \"objectId\"
+        : 28, \"productName\" : \"Data Loss Prevention 11.13\", \"objectNotes\" :
+        \"\" }, { \"productId\" : \"UDLPSRVR2013\", \"featureName\" : \"Data Loss
+        Prevention\", \"typeName\" : \"Windows Client Configuration\", \"objectName\"
+        : \"Trellix Default\", \"typeId\" : 12, \"featureId\" : \"UDLPSRVR2013\",
+        \"objectId\" : 23, \"productName\" : \"Data Loss Prevention 11.13\", \"objectNotes\"
+        : \"\" }, { \"productId\" : \"UDLPSRVR2013\", \"featureName\" : \"Data Loss
+        Prevention\", \"typeName\" : \"Windows Client Configuration\", \"objectName\"
+        : \"Default Windows Client Configuration\", \"typeId\" : 12, \"featureId\"
+        : \"UDLPSRVR2013\", \"objectId\" : 29, \"productName\" : \"Data Loss Prevention
+        11.13\", \"objectNotes\" : \"\" }, { \"productId\" : \"UDLPSRVR2013\", \"featureName\"
+        : \"Data Loss Prevention\", \"typeName\" : \"Mac OS X Client Configuration\",
+        \"objectName\" : \"Trellix Default\", \"typeId\" : 13, \"featureId\" : \"UDLPSRVR2013\",
+        \"objectId\" : 24, \"productName\" : \"Data Loss Prevention 11.13\", \"objectNotes\"
+        : \"\" }, { \"productId\" : \"UDLPSRVR2013\", \"featureName\" : \"Data Loss
+        Prevention\", \"typeName\" : \"Mac OS X Client Configuration\", \"objectName\"
+        : \"Default Mac OS X Client Configuration\", \"typeId\" : 13, \"featureId\"
+        : \"UDLPSRVR2013\", \"objectId\" : 30, \"productName\" : \"Data Loss Prevention
+        11.13\", \"objectNotes\" : \"\" }, { \"productId\" : \"UDLPSRVR2013\", \"featureName\"
+        : \"Data Loss Prevention\", \"typeName\" : \"Server Configuration\", \"objectName\"
+        : \"Trellix Default\", \"typeId\" : 14, \"featureId\" : \"UDLPSRVR2013\",
+        \"objectId\" : 25, \"productName\" : \"Data Loss Prevention 11.13\", \"objectNotes\"
+        : \"\" }, { \"productId\" : \"UDLPSRVR2013\", \"featureName\" : \"Data Loss
+        Prevention\", \"typeName\" : \"Server Configuration\", \"objectName\" : \"My
+        Default Server Configuration\", \"typeId\" : 14, \"featureId\" : \"UDLPSRVR2013\",
+        \"objectId\" : 31, \"productName\" : \"Data Loss Prevention 11.13\", \"objectNotes\"
+        : \"\" }, { \"productId\" : \"UDLPSRVR2013\", \"featureName\" : \"Data Loss
+        Prevention\", \"typeName\" : \"Server Configuration\", \"objectName\" : \"test\",
+        \"typeId\" : 14, \"featureId\" : \"UDLPSRVR2013\", \"objectId\" : 33, \"productName\"
+        : \"Data Loss Prevention 11.13\", \"objectNotes\" : \"\" }, { \"productId\"
+        : \"UDLPSRVR2013\", \"featureName\" : \"Data Loss Prevention\", \"typeName\"
+        : \"Server Configuration\", \"objectName\" : \"Trellix Default (copy)\", \"typeId\"
+        : 14, \"featureId\" : \"UDLPSRVR2013\", \"objectId\" : 34, \"productName\"
+        : \"Data Loss Prevention 11.13\", \"objectNotes\" : \"\" } ]\r\n"
+    headers:
+      Cache-Control:
+      - no-cache,no-store
+      Connection:
+      - keep-alive
+      Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      Content-Type:
+      - text/plain;charset=UTF-8
+      Date:
+      - Thu, 08 Oct 2026 05:58:56 GMT
+      Expires:
+      - Thu, 08 Oct 2026 05:58:56 GMT
+      Keep-Alive:
+      - timeout=60
+      Pragma:
+      - no-cache
+      Server:
+      - Undefined
+      Set-Cookie:
+      - JSESSIONIDSSO=1C8E3EA68FFC60407F6B543666774DDD; Path=/; Secure; HttpOnly;
+        SameSite=None
+      - JSESSIONID=FC6B37DD9AC691545FBA5924F28008AA.route1; Path=/remote; Secure;
+        HttpOnly; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      X-Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      X-Content-Type-Options:
+      - nosniff
+      X-WebKit-CSP:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      content-length:
+      - '2814'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: ''
+version: 1
