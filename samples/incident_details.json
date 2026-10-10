@@ -1,0 +1,86 @@
+{
+    "generalDetails": {
+        "incidentID": "2122",
+        "occurred_UTC": "7 October, 2026 7:34:07 AM",
+        "occurred_Endpoint": "7 October, 2026 1:04:07 PM India Standard Time",
+        "incidentType": "Screen Capture Protection",
+        "actualAction": "Block",
+        "failureReason": "No Failure",
+        "expectedAction": "Block",
+        "severity": "Critical",
+        "status": "New",
+        "resolution": "None",
+        "reviewer": "Unassigned",
+        "labels": []
+    },
+    "endpointDetails": {
+        "computerName": "SACUMEN",
+        "computerIP": "10.10.17.42",
+        "connectivityState": "Online",
+        "sourceApplication": "textinputhost.exe"
+    },
+    "eventUserDetails": {
+        "userPrincipalName": "sacumen\\sacumen-dell@",
+        "userAccount": "sacumen\\sacumen-dell",
+        "userEmail": "",
+        "userOU": "",
+        "userGroups": "Administrators"
+    },
+    "lastUpdatedUserDetails": {
+        "userPrincipalName": "sacumen\\sacumen-dell@",
+        "userAccount": "sacumen\\sacumen-dell",
+        "userEmail": "",
+        "userOU": "",
+        "userGroups": "Administrators",
+        "userName": "sacumen-dell",
+        "userTitle": "",
+        "userDepartment": "",
+        "userManager": "",
+        "userId": "1"
+    },
+    "reportingProduct": {
+        "reportingProduct": "DLP for Windows",
+        "productVersion": "11.14.0.414",
+        "policyName": "My Default DLP Policy (4)",
+        "applianceIP": "null",
+        "applianceHostName": "null"
+    },
+    "totalMatchCount": "0",
+    "totalContentSize_KB": "84.31",
+    "additionalInformation": {},
+    "accessControlList": [],
+    "customAttributes": {},
+    "evidences": [
+        {
+            "evidenceName": "ScreenCapture.jpg",
+            "evidenceLocation": "51\\3E\\{9B513EFC-8CB2-8928-12D1-DAB7C015E87E}.jpg.dlpenc",
+            "hitHighlightLocation": "",
+            "evidencePrefix": "\\\\epo-server\\dlp-evidence\\",
+            "itemType": "Screenshot",
+            "fileSize_KB": "84.31",
+            "matchCount": "0",
+            "uniqueMatchCount": "0",
+            "shortMatchString": "",
+            "uniqueMatchStrings": "",
+            "classifications": "",
+            "path": "",
+            "sHA1": "4681d9c3e8737fcf36b86ecd53e8de7219481905",
+            "matchedFingerprints": []
+        }
+    ],
+    "rules": [
+        {
+            "ruleSetName": "Sacumen Test Rule Set",
+            "ruleName": "Sacumen Screen Capture Block Test",
+            "configuredAction": "Block",
+            "severity": "Critical",
+            "actionTriggered": "None",
+            "modificationDate": "25 September, 2026 12:32:00 PM"
+        }
+    ],
+    "classifications": [],
+    "stakeholders": [],
+    "auditLogs": [],
+    "comments": [],
+    "cases": []
+}
