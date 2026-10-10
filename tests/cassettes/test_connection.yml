@@ -1,0 +1,142 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Basic dGVzdF91c2VyOkR1bW15UGFzc0AyMDI2
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.2
+    method: GET
+    uri: https://10.10.10:8443/remote/core.help?:output=json
+  response:
+    body:
+      string: !!binary |
+        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
+    headers:
+      Cache-Control:
+      - no-cache,no-store
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      Content-Type:
+      - text/plain;charset=UTF-8
+      Date:
+      - Wed, 07 Oct 2026 14:42:26 GMT
+      Expires:
+      - Wed, 07 Oct 2026 14:42:25 GMT
+      Keep-Alive:
+      - timeout=60
+      Pragma:
+      - no-cache
+      Server:
+      - Undefined
+      Set-Cookie:
+      - JSESSIONIDSSO=A14853E8FE7C239681BAEBA23D7F8CE6; Path=/; Secure; HttpOnly;
+        SameSite=None
+      - JSESSIONID=48DAFB73CA149C646A0596FDD80CDDF8.route1; Path=/remote; Secure;
+        HttpOnly; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      X-Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      X-Content-Type-Options:
+      - nosniff
+      X-WebKit-CSP:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: ''
+version: 1

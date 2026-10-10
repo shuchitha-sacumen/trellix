@@ -1,0 +1,13 @@
+OK: [
+    {
+        "EPOAssignedPolicy.NodeName": "SACUMEN",
+        "EPOAssignedPolicy.UserName": " ",
+        "EPOAssignedPolicy.PolicyObjectID": 30,
+        "EPOAssignedPolicy.upToDate": true,
+        "EPOAssignedPolicy.PolicyDesc": "",
+        "EPOAssignedPolicy.FeatureTextID": "UDLPSRVR2013",
+        "EPOAssignedPolicy.ServerID": "EPO-SERVER",
+        "EPOAssignedPolicy.EditFlags": 0,
+        "EPOAssignedPolicy.Origin": "tree"
+    }
+]
