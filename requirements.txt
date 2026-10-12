@@ -1,0 +1,6 @@
+pydantic==2.13.5
+boto3==1.43.105
+requests==2.34.2
+pytest-vcr==1.0.2,
+tenacity>=9.1.4
+
